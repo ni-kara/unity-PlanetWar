@@ -32,9 +32,7 @@ public class RobotBehaviour : Robot
     {
         CheckForEnemy();
         DestroyRobot();
-    }
-   
-
+    }  
     private IEnumerator CreateBullet() 
     {
         for (;;)
@@ -47,7 +45,6 @@ public class RobotBehaviour : Robot
             Destroy(obj, 3f);
         }
     }
-
     private void SetBulletSpeed() => bulletSpeed = 10;
     private void CheckForEnemy() 
     {
