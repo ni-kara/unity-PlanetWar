@@ -7,13 +7,14 @@ public class CreateSpacecraft : MonoBehaviour
     [Tooltip("Assign Spacecraft Prefab")]
     public GameObject spacecraft;
 
-    [Tooltip("Crowd of Spacecraft")]
-    public int numSpacecraft;
+    private int numSpacecraft;
 
     // Start is called before the first frame update
-    void Start()=>
+    void Start()
+    {
+        numSpacecraft = 5;
         SpacecraftCreation();
-
+    }
     private void SpacecraftCreation()
     {
         for (int i = 0; i < numSpacecraft; i++)

@@ -560,7 +560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spacecraft: {fileID: 2593893597296562410, guid: 360da124dc8a27c4eb3c7bf84776f220,
     type: 3}
-  lengthSpacecraft: 5
+  numSpacecraft: 5
 --- !u!1 &1189952045
 GameObject:
   m_ObjectHideFlags: 0
